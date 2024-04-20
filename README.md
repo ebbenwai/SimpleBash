@@ -4,7 +4,6 @@
 
 ## Contents
 
-0. [Preamble](#preamble)
 1. [Chapter I](#chapter-i) \
     1.1. [Introduction](#introduction)
 2. [Chapter II](#chapter-ii) \
@@ -14,36 +13,6 @@
     3.2. [Part 2](#part-2-работа-с-утилитой-grep)  
     3.3. [Part 3](#part-3-дополнительно-реализация-некоторых-флагов-утилиты-grep)  
     3.4. [Part 4](#part-4-дополнительно-реализация-комбинаций-флагов-утилиты-grep) 
-
-
-## Preamble
-
-![simple_bash_utils](misc/rus/images/bashutils.png)
-
-То был обычный серый осенний день 1993 года. Вы пришли домой со своей работы в Hewlett-Packard, 
-немного уставший. У вас была небольшая двухкомнатная квартира на окраинах города N, 
-а в холодильнике был слабоалкогольный напиток под названием pivo. Вы взяли этот напиток, 
-пачку крекеров и пошли в свое укромное местечко, где стоял компьютер производства Dell.
-
-`*Щелчок*` - нажата кнопка включения. Пару минут загрузки и..да, это приятное чувство. Вы всегда испытываете его при включении компьютера. Пару секунд недвижимого наслаждения и вот вы уже открываете браузер Mosaic, заходите на свой любимый форум..листаете треды, попивая pivo. И вдруг натыкаетесь на очень интересное обсуждение, которое началось следующим сообщением:
-
-> Hello everybody out there using minix -
->
->I'm doing a (free) operating system (just a hobby, won't be big and professional like gnu) for 386(486) AT clones. This has been brewing since april, and is starting to get ready. I'd like any feedback on things people like/dislike in minix, as my OS resembles it somewhat (same physical layout of the file-system (due to practical reasons) among other things).
->
->I've currently ported bash(1.08) and gcc(1.40), and things seem to work. This implies that I'll get something practical within a few months, and I'd like to know what features most people would want. Any suggestions are welcome, but I won't promise I'll implement them :-)
->
->Linus (torvalds@kruuna.helsinki.fi)
->
->PS. Yes - it's free of any minix code, and it has a multi-threaded fs. It is NOT portable (uses 386 task switching etc), and it probably never will support anything other than AT-harddisks, as that's all I have :-(.
->
->— Linus Torvalds
-
-"Очень любопытно", - подумали вы про себя. Пролистав тред ниже вы заметили, что bash не так уж 
-хорошо портирован, и некоторые функции не работают. В частности возникли проблемы с утилитами 
-по работе с текстом: cat и grep.
-"Интересная задачка, заодно будет здорово помочь этому Линусу Торвальдсу", - сказали вы вслух и сразу же написали в 
-тред сообщение о том, что уже начинаете этим заниматься. Что ж, начинайте!
 
 ## Chapter I
 
